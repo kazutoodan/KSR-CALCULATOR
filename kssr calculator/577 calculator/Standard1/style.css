@@ -1,0 +1,181 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	margin:0; padding:0;
+	box-sizing: border-box;
+	outline:none;
+        border:none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+  }
+
+  body
+  {
+    background-image: url(../images/ash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: cursive;
+  }
+ 
+  .calculator {
+    width: 350px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background-color: #000;
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+  }
+  .display1 {
+    width: 100%;
+    height: 100px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: yellowgreen;
+    color: #000;
+    text-align: right;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+button 
+{
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+   margin: 10px;
+}
+
+.calculator_button button
+{
+  border-radius: 50%;
+}
+
+  button:hover {
+    cursor: pointer;
+  }
+  .operator {
+    background-color: yellowgreen;
+    color: #000;
+  }
+
+
+button.btn
+{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button.btn.function5
+{
+  color: #000;
+  margin: auto;
+  width: 20%;
+  border: 4px solid black;
+}
+
+button.btn.function5:hover
+{
+  background-color: yellowgreen;
+  color: whitesmoke;
+}
+
+.container
+{
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 200px;
+    width: 1300px;
+    border: 15px solid green;
+    background-color: greenyellow;
+}
+
+.container .v1
+{
+    width: 900px;
+    height: 140px;
+    border: 0;
+    background-color: yellow;
+    padding: 40px;
+    margin: 20px;
+}
+
+.container .v2
+{
+    width: 600px;
+    height: 270px;
+    border: 0;
+    background-color: yellow;
+    padding: 50px;
+    margin: 20px;
+}
+
+.buttons {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  color: black;
+  margin: auto;
+  width: 20%;
+  border: 4px solid black;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.choose
+{
+   width: 100px;
+   height: 50px;
+}
+
+.size
+{
+    font-size: 2rem;
+}
+
+.button2
+{
+  border: none;
+  color: black;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.divide
+{
+    background-color: black;
+    width: auto;
+    height: 2%;
+}

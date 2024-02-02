@@ -1,0 +1,9 @@
+html
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cookie', cursive;
+  background-image: linear-gradient(315deg, #0b0b45 0%, #000000 74%);;
+}
